@@ -1,1 +1,1 @@
-rootProject.name = "chakgalpi-api"
+rootProject.name = "chakgalpi-backend"
