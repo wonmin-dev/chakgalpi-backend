@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    include: local
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+  devtools:
+    remote:
+      restart:
+        enabled: true
+
+logging:
+  level:
+    com.chakgalpi.api: DEBUG
+    com.zaxxer.hikari: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql: OFF
+    org.springframework.orm.jpa: DEBUG
+    org.springframework.transaction: DEBUG
+    p6spy: DEBUG
+#  config: classpath:logback/logback-spring.xml
