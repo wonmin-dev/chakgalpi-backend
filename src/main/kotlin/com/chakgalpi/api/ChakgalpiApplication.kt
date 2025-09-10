@@ -1,4 +1,4 @@
-package com.chakgalpi.chakgalpiapi
+package com.chakgalpi.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
